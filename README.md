@@ -1,3 +1,6 @@
+<img width="1024" height="500" src="/assets/images/Image_Demo.png">
+
+
 Construa o seu próprio cronômetro de estudos. Nesse mini projeto você irá utilizar apenas HTML, CSS e JavaScript para criar um cronômetro para dividir seus estudos em períodos de 25 minutos, separados por breves intervalos, baseado na Técnica Pomodoro que é um método de gerenciamento de tempo (mais informações sobre a Técnica Pomodoro [aqui](https://pt.wikipedia.org/wiki/T%C3%A9cnica_pomodoro)).
 
 ## 🔨 Requisitos
