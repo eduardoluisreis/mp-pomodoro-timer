@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/meustyle.css">
+    <title>Pomodoro</title>
+</head>
+
+<body>
+    <main class="background-image">
+        <section class="container">
+            <section class="container-timer">
+                <nav>
+                    <button class="modality active-button" type="button">Pomodoro</button>
+                    <button class="modality active-button" type="button">Intervalo Curto</button>
+                    <button class="modality active-button" type="button">Intervalo Longo </button>
+                </nav>
+                <span>
+                    <p id="counter">25:00</p>
+                </span>
+
+                <span>
+                    <button id="start" class="start" type="button">Começar</button>
+                </span>
+            </section>
+
+            <span class="divider"></span>
+            <section class="tasks">
+                <section>
+                    <h1>Tarefas</h1>
+                    <form>
+                        <input id="new-task" type="text" name="Nova Tarefa" placeholder="Adicione uma nova tarefa" />
+                        <button id="add-task" type="button">+</button>
+                    </form>
+                </section>
+                <section class="tasks-list">
+                    <ol id="tasks"></ol>
+                </section>
+            </section>
+        </section>
+
+    </main>
+</body>
+
+</html>
